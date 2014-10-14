@@ -1,5 +1,5 @@
 public class Job implements Runnable { 
-    /* Does stuff */s
+    /* Does stuff */
     private int jobNumber ;
 
     Job(int jobNumber) {
