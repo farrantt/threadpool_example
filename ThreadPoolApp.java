@@ -21,7 +21,7 @@ public class ThreadPoolApp {
                              // but no new tasks will be accepted.
             System.out.println("Last line " + Thread.currentThread().getName());
         } catch ( NumberFormatException e) {
-            ThreadPoolApp. error ();
+            ThreadPoolApp.error ();
         }
     }
     private static void error () {
